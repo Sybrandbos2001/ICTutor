@@ -2,8 +2,10 @@
 
 .custom-link {
     font-family: 'Plus Jakarta Sans', sans-serif;
-    font-size: 20px;
+    font-size: 25px;
     margin-right: 20px;
+    font-weight: 500;
+    color: black !important;
 }
 
 .nav-link:hover {

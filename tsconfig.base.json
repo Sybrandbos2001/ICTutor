@@ -14,7 +14,10 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@ictutor/libs": ["libs/src/index.ts"],
+      "@ictutor/my-lib": ["my-lib/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }

@@ -1,0 +1,13 @@
+<section id="services">
+    <div class="container my-5">
+        <div class="row">
+            <div class="col-12">
+                <h2 class="text-center">Onze Diensten</h2>
+                <h3 class="text-center">Waarmee kunnen we u allemaal helpen?</h3>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4" *ngFor="let card of cards">
+                <ictutor-card [card]="card"></ictutor-card>
+            </div>
+        </div>
+    </div>
+</section>
