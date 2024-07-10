@@ -16,3 +16,30 @@
     margin-top: 12vh;
     margin-bottom: 10px;
 }
+
+#prices,
+#contact {
+    background-color: #29ABE2;
+    padding: 80px 0px;
+}
+
+.price-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.price-list li {
+    color: white;
+    font-size: 22px;
+    margin: 25px 0 0 0;
+    font-weight: bolder;
+}
+
+.black-text {
+    color: black !important;
+}
+
+#about {
+    padding: 80px 0px;
+}
